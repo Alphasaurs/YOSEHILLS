@@ -1,2 +1,1 @@
-# SPACE-APP
-innovation really.....
+# A full fledge shopping system with payments handling and ratings.
