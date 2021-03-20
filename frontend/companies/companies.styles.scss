@@ -1,0 +1,19 @@
+.companies {
+  h1 {
+    color: #55637f;
+    margin-left: 270px;
+  }
+  .company {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 4rem;
+    margin-top: -4rem;
+    margin-left: 8rem;
+    img {
+      width: 120px;
+      height: 120px;
+      padding: 4rem;
+    }
+  }
+}

@@ -1,0 +1,53 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: -200px;
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+
+  .content {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+
+    .items {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 0 5px 0;
+
+      .item {
+        padding: 0px 10px;
+        margin-bottom: 5px;
+        .custom-button {
+          background-color: white;
+          border: 1px solid #6c768e;
+          color: #43afff;
+
+          .recruiter {
+            filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
+          }
+        }
+      }
+    }
+
+    img {
+      width: 20px;
+      height: 20px;
+      padding: 0px 10px;
+    }
+
+    .password {
+      display: flex;
+      margin: 0 0 5px 0;
+      input {
+        width: 12vw;
+      }
+    }
+  }
+}

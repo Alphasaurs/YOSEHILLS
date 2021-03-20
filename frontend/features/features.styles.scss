@@ -1,0 +1,46 @@
+.main {
+  margin-top: 55px;
+
+  .why {
+    color: #55637f;
+    margin-left: 270px;
+  }
+  .feature-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 40px 240px;
+
+    .feature-item {
+      width: 300px;
+      height: 140px;
+      display: flex;
+
+      flex-direction: column;
+      overflow: hidden;
+      background-color: white;
+      border-radius: 8px;
+
+      .content {
+        display: flex;
+        flex-direction: column;
+        padding: 6px;
+
+        .title {
+          font-weight: bold;
+          color: #64bdff;
+          font-size: 1rem;
+          padding: 6px;
+          font-weight: bold;
+        }
+
+        .description {
+          padding: 6px;
+          font-size: 0.5 rem;
+          font-weight: 900;
+          color: #99a1b1;
+        }
+      }
+    }
+  }
+}

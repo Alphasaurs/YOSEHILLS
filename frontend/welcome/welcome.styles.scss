@@ -1,0 +1,33 @@
+.welcome {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: -220px;
+
+  .line {
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+      display: flex;
+      font-size: 3rem;
+      display: flex;
+      flex-direction: column;
+      font-weight: 400;
+      color: white;
+
+      .brand {
+        background: linear-gradient(to left, #43afff 51%, white 0%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+        height: 100%;
+      }
+    }
+  }
+
+  .card img {
+    width: 500px;
+    border-radius: 13px;
+  }
+}
